@@ -1,0 +1,901 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>SAM Element | IoT Platform | IoT Provider</title>
+        <meta name="description" content="SAM Element is an Internet of Things solution provider company, providing client with end to end IoT solution..">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<meta property="og:url" content="https://www.samelement.com/" />
+		<meta property="og:title" content="SAM Element | IoT Solution Provider | Internet of Things Solution Provider | Smart . Secure . Stunning" />
+		<meta property="og:description" content="SAM Element is an Internet of Things solution provider company, providing client with end to end IoT solution..">
+		<meta property="og:image" content="//www.samelement.com/img/logo/logo-red-black-300x200.png">
+		<meta property="og:type" content="website" />
+		<meta property="og:locale" content="en_GB" />
+
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+        <!-- Place favicon.png in the root directory -->
+
+		<!-- CSS here -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="css/themify-icons.css">
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/text-headline.css">
+        <link rel="stylesheet" href="css/default.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" href="css/sweetalert2.min.css">
+		<style>
+		.cd-words-wrapper {
+			width: 500px!important;
+		    position: absolute;
+		}	
+		.circle-border {
+			width: 150px;
+			overflow: hidden;	
+			margin: 0 auto;
+			border: double 4px transparent;
+			border-radius: 80px;
+			background-image: linear-gradient(white, white), radial-gradient(circle at top left, #0066cc,#9900cc);
+			background-origin: border-box;
+			background-clip: content-box, border-box; 
+		    box-shadow: 0px 0px 30px #aaa;
+		}
+		.circle-border span {
+			position: absolute;
+			background-color: #9900cc;
+			font-size: 33px;
+			color: #fff;
+			border-radius: 50%;
+			width: 60px;
+			height: 60px;
+			border: 3px solid rgb(125,65,150);
+			top: 15px;
+		}
+		.circle-border img {
+			width: 100%;
+			padding: 20px;
+		}
+		.subscribe-response {
+			position: absolute;
+			color: #fff;
+			padding: 10px 0px 0px 30px;
+		}
+		.modal {
+			overflow-y: hidden;
+			width: 100%;
+		}
+		.modal-dialog {
+			max-width: 100%;
+		}
+		.modal-close {
+		    color: #fff;
+			border: 2px solid #fff;
+			border-radius: 50px;
+			width: 20px;
+			height: 20px;
+			top: -15px;
+			position: relative;
+			right: -15px;
+			background-color: #000;
+		}
+		.modal-header {
+			border-bottom: none;
+		}
+		.modal-content {
+			background-image: url(img/bg/featured-iot.jpg);
+			background-repeat: no-repeat;
+			background-size: contain;
+		    background-color: #15120f;
+			width: calc(100% - 35px);
+			height: 100%;
+			min-width: 310px;
+			border-radius: 10px;
+			box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 8px 0 rgba(0, 0, 0, 0.2);
+			margin: 0 auto;
+		}
+		.modal-body {
+			display: block;
+		}
+		.modal-body>div {
+			display: inline-block;
+		}
+		.modal-open .modal {
+			overflow-y: hidden;
+		}
+		.modal-body h6 {
+			color: #dee2e6;
+			font-size: 10px;
+		}
+		.modal-body input {
+			width: 100%;
+			border: 0px;
+			border-radius: 5px;
+			height: 25px;
+			padding: 0 10px;
+			font-size: medium;
+		}
+		.modal-body form>div>div:nth-child(1) {
+			font-size: small;
+			color: #dee2e6;
+		}
+		.modal-body form>div>div:nth-child(2) {
+		    margin-bottom: 20px;
+		}
+		.modal-body>div {
+			width: 100%;
+			height: 200px;
+		}
+		.modal-body>div:nth-child(2) {
+			width: 100%;
+			height: 100%;
+		}
+		.modal-body form label.error {
+		    color: #0ff;
+			font-size: small;
+		}
+		@media (min-width: 576px) {
+			.center {
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				transform: translate(-50%, -50%);
+			}
+			.modal-body>div:nth-child(1) {
+				width: calc(100% - 265px);
+			}
+			.modal-body>div:nth-child(2) {
+				width: 260px;
+			}						
+			.modal {
+				height: 570px;
+			}
+			.modal-content {
+				height: 472px;
+			}
+			.modal-body h6 {
+				font-size: 16px;
+			}
+		}
+		@media (min-width: 800px) {
+			.modal-body>div:nth-child(1) {
+				width: 400px;
+			}
+			.modal-body>div:nth-child(2) {
+				width: calc(100% - 405px);
+			}			
+			.modal {
+				width: 800px;
+				height: 570px;
+			}
+			.modal-content {
+				height: 499px;
+			}
+		}
+		@media (min-width: 1024px) {
+		}
+		
+		
+			
+		</style>
+		<!-- Facebook Pixel Code -->
+		<script>
+		  !function(f,b,e,v,n,t,s)
+		  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+		  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+		  n.queue=[];t=b.createElement(e);t.async=!0;
+		  t.src=v;s=b.getElementsByTagName(e)[0];
+		  s.parentNode.insertBefore(t,s)}(window, document,'script',
+		  'https://connect.facebook.net/en_US/fbevents.js');
+		  fbq('init', '2362022994077823');
+		  fbq('track', 'PageView');
+		</script>
+		<noscript><img height="1" width="1" style="display:none"
+		  src="https://www.facebook.com/tr?id=2362022994077823&ev=PageView&noscript=1"
+		/></noscript>
+		<!-- End Facebook Pixel Code -->
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+
+        <!-- preloader -->
+        <div class="page-loader">
+            <div class="loader">Loading...</div>
+        </div>
+        <!-- preloader -->
+
+        <!-- header start -->
+        <header id="sticky-header" class="header-area header-transparent pt-40 pb-40">
+            <div class="header-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="main-menu">
+                                <nav class="navbar navbar-expand-lg">
+                                    <a class="navbar-brand" href="index.html">
+                                        <img src="img/logo/logo.png" alt="" width="150px">
+                                    </a>
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                        aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-icon"></span>
+                                        <span class="navbar-icon"></span>
+                                        <span class="navbar-icon"></span>
+                                    </button>
+
+                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                        <ul class="navbar-nav ml-auto">
+                                            <li class="nav-item active">
+                                                <a class="nav-link" href="#home">Home </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#about">About</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#how">How it Works</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#features">Join</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#download">Download</a>
+                                            </li>                                            
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="https://blog.samelement.com">Blog</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="https://dev.samelement.com:8888">Login</a>
+                                            </li>                                            
+                                            <li class="nav-item">
+                                                <a class="btn-signup nav-link" href="https://dev.samelement.com:8888/page-login?a=signup">Sign Up</a>
+                                            </li>                                            
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#contact">Contact</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header end -->
+
+        <!-- slider start -->
+        <div id="home" class="slider-area blue-gradient pos-relative wave-shape">
+           <div class="slider-active">
+                <div class="single-slider slider-height d-flex align-items-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-8 col-lg-8 col-md-8">
+                                <div class="silder-content pt-170">
+                                    <h1 class="white-color cd-headline slide mb-35" data-animation="fadeInDown" data-delay=".3s">Internet of Things made <strong>Easy</strong> for your smart&nbsp;
+                                        <span class="cd-words-wrapper">
+                                            <b class="is-visible">idea</b>
+                                            <b>switch</b>
+                                            <b>metering</b>
+                                            <b>lighting</b>
+                                            <b>water monitoring</b>
+                                            <b>home</b>
+                                            <b>office</b>
+                                            <b>medical devices</b>
+                                            <b>military devices</b>
+                                        </span>
+                                    </h1>
+                                    <p data-animation="fadeInDown" data-delay=".5s">Evolution is coming..! Scale up your business by turning your offline products to online. Get ready to reap the benefits of Internet of Things.</p>
+                                    <div class="slider-btn">
+                                        <a href="#discover" class="btn blue-gradient" data-animation="fadeInUp" data-delay=".9s">Discover More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-lg-4 col-md-4">
+                                <div class="slider-app-thumb pt-140" data-animation="fadeInRight" data-delay="1.2s">
+                                    <img src="img/slider/sam-iot.png" alt="Internet of Things" width="571px">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+        <!-- slider end -->
+
+        <!-- features-area start -->
+        <div id="discover" class="features-area pt-105 pb-110">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-4">
+                        <div class="features-wrapper text-center mb-30 wow fadeIn" data-wow-delay="0.2s">
+                            <div class="features-icon-img mb-20">								
+								<img src="img/icon/features/locked.svg" alt="Safety, Comfort, Efficiency" style="width:100px">
+                            </div>
+                            <h4>Safety, Comfort, Efficiency</h4>
+                            <p>More time for productive &#38; rewarding work. Drive higher satisfaction &#38; retention. Dramatically improving profit margins.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4">
+                        <div class="features-wrapper text-center mb-30 wow fadeIn" data-wow-delay="0.4s">
+                            <div class="features-icon-img mb-20">
+								<img src="img/icon/features/decision.svg" alt="Better Decision Making" style="width:100px">
+                            </div>
+                            <h4>Better Decision Making</h4>
+                            <p>Make smarter decisions by analyzing larger trends. Giving you data-backed visibility into every aspect of your business.</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4">
+                        <div class="features-wrapper text-center mb-30 wow fadeIn" data-wow-delay="0.6s">
+                            <div class="features-icon-img mb-20">
+								<img src="img/icon/features/money-bag.svg" alt="Revenue Generation" style="width:100px">
+                            </div>
+                            <h4>Revenue Generation</h4>
+                            <p>Data analysis helps to realize new business functions and revenue opportunities. Take a strategic advantage over the competitors.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- features-area end -->
+
+        <!-- about-app-area start -->
+        <div id="about" class="about-app-area blue-gradient pt-140 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="about-app">
+                            <h2 class="color-white">Why You Should Go Online</h2>
+                            <p>It’s fascinating to watch billions of devices talk to each other every day. However, this amplification in connectivity brings innovation in the way we relate and use these devices.
+							SAM Element is one of those leading pioneers. We help clients with innovative business models integrating IoT technology to deliver end-to-end IoT solutions. Our wealth of service opportunities provides you with the agility needed for the success of your business in the networked society.
+							</p>
+							<p>Here are some benefits you can reap by partnering with us: increase business opportunities, enhanced asset utilization, efficient processes, improved safety and security, increase productivity, and cost saving.</p>                            
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="about-app-thumb">
+                            <img src="img/about/about-sam.png" alt="Why You Should Go to Internet of Things" width="521px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- about-app-area end -->
+
+         <!-- how-it-area-area start -->
+        <div id="how" class="how-it-area-area pt-150">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-8 offset-lg-2 offset-xl-3">
+                        <div class="area-title text-center mb-60" >
+                            <h2 class="mb-15">How It Works</h2>
+                            <p>Still confused in Internet of Things?<br/>Here you can watch an example application of Water Monitoring IoT system.<br/>Real cases that have been deployed to some locations.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-10 col-lg-10 offset-lg-1 offset-xl-1">
+                        <div class="video wow fadeInUp" data-wow-delay="0.3s">
+                            <img src="img/bg/video.jpg" alt="">
+                            <a class="popup-video" href="video/wls-samelement.mp4"><img src="img/icon/play.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="how-it-work-content-area gray-bg pb-120">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-4">
+                            <div class="work-box text-center mb-30 wow fadeIn" data-wow-delay="0.2s">
+                                <div class="work-icon mb-25">
+                                    <div class="circle-border">
+										<span>1</span>
+										<img src="img/icon/features/board.svg" alt="">
+									</div>
+                                </div>
+                                <h4 class="mb-25">Build the Board</h4>
+                                <p>Integrate your device with our connectivity module: Mesh, LTE, LORA, WIFI, etc. Your creativity is the only limit.</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4">
+                            <div class="work-box text-center mb-30 wow fadeIn" data-wow-delay="0.4s">
+                                <div class="work-icon mb-25">
+                                    <div class="circle-border">
+										<span>2</span>
+										<img src="img/icon/features/cloud.svg" alt="">
+									</div>
+                                </div>
+                                <h4 class="mb-25">Go Online</h4>
+                                <p>Connect to our secured IoT platform. Promote customer confidence with superior encryption and authentication.</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4">
+                            <div class="work-box text-center mb-30 wow fadeIn" data-wow-delay="0.6s">
+                                <div class="work-icon mb-25">
+                                    <div class="circle-border">
+										<span>3</span>
+										<img src="img/icon/features/app.svg" alt="">
+									</div>
+                                </div>
+                                <h4 class="mb-25">Download App</h4>
+                                <p>Start interacting with your device by download our ready to use SAM IoT app, or create your very own application.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- how-it-area-area start -->
+
+         <!-- features-area start -->
+        <div id="features" class="features-area pt-150 pb-50">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-8 offset-lg-2 offset-xl-3">
+                        <div class="area-title text-center mb-60">
+                            <h2 class="mb-15">Partner with Us</h2>
+                            <p>We understand you have a choice when selecting a technology partner, so here are 6 reasons we think you’ll be completely satisfied when you partner with SAM Element.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-12 col-md-12">
+                        <div class="features-app-thumb mb-60 wow fadeInLeft" data-wow-delay="0.2s">
+                            <img src="img/about/sam-robo.jpg" alt="SAM Element Internet of Things">
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-lg-12 col-md-12">
+                        <div class="row pt-60">
+                            <div class="col-xl-6 col-lg-6 col-md-6">
+                                <div class="main-features mb-55 wow fadeIn" data-wow-delay="0.4s">
+                                    <div class="features-icon">
+                                        <span><i class="ti-link"></i></span>
+                                    </div>
+                                    <div class="features-content">
+                                        <h4>Reliability &#38; Durability</h4>
+                                        <p>With a strong RND team, we'd like to release product and its update as fast as possible, while ensuring that the releases we approve maintain the highest standards of quality.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6">
+                                <div class="main-features mb-55 wow fadeIn" data-wow-delay="0.6s">
+                                    <div class="features-icon">
+                                        <span><i class="ti-shield"></i></span>
+                                    </div>
+                                    <div class="features-content">
+                                        <h4>Safety &#38; Security</h4>
+                                        <p>Equipped with an end-to-end secure communication with superior encryption and authentication. Every partner should comply and pass the security standard.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6">
+                                <div class="main-features mb-55 wow fadeIn" data-wow-delay="0.8s">
+                                    <div class="features-icon">
+                                        <span><i class="ti-panel"></i></span>
+                                    </div>
+                                    <div class="features-content">
+                                        <h4>Ready to Use Module</h4>
+                                        <p>With our ready to use module, we help you to develop, test, certify, produce, and get into the market much faster and with confident.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6">
+                                <div class="main-features mb-55 wow fadeIn" data-wow-delay="1s">
+                                    <div class="features-icon">
+                                        <span><i class="ti-dashboard"></i></span>
+                                    </div>
+                                    <div class="features-content">
+                                        <h4>Ready to Use Application</h4>
+                                        <p>With our ready to use application, we help you to stay focus on developing the hardwares, so you can get into the market quicker with awesome devices.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6">
+                                <div class="main-features mb-55 wow fadeIn" data-wow-delay="1.2s">
+                                    <div class="features-icon">
+                                        <span><i class="ti-crown"></i></span>
+                                    </div>
+                                    <div class="features-content">
+                                        <h4>White Label Service</h4>
+                                        <p>We provide developer API so you can expand your products &#38; services, integrate it with your own or any third party data provider. All under your own brand name.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6">
+                                <div class="main-features mb-55 wow fadeIn" data-wow-delay="1.4s">
+                                    <div class="features-icon">
+                                        <span><i class="ti-headphone-alt"></i></span>
+                                    </div>
+                                    <div class="features-content">
+                                        <h4>Friendly Support</h4>
+                                        <p>Every partner is a part of our success. Your success &#38; satisfaction are our success. That's why a friendly support is a must to ensure you get the most of our services.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- features-area start -->
+
+       <!-- download area start -->
+        <div id="download" class="download-area blue-gradient star-pattern pt-150 pb-150">
+            <div class="smart-watch  wow fadeInRight" data-wow-delay=".3s">
+                <img src="img/bg/download-sam-iot.png" alt="Download SAM IoT App">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-8 offset-lg-2 offset-xl-3">
+                        <div class="area-title white-text text-center  mb-60">
+                            <h2 class="mb-15">Download SAM IoT App</h2>
+                            <p>Get it now on Google Play Store. Apple store will follow soon.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="get-app download-app text-center">
+                            <a href="https://play.google.com/store/apps/details?id=com.samelement.samiot" target="_blank">
+                                <i class="ti-android"></i>
+                                <p>Available on
+                                    <br>
+                                    <b>Google Store</b>
+                                </p>
+                            </a>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- download area end -->
+
+        <!-- screenshot-area  start -->
+        <div id="screenshots" class="screenshot-area pt-150 pb-135 wow fadeInUp" data-wow-delay=".2s">
+            <div class="app-padding">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-8 offset-lg-2 offset-xl-3">
+                            <div class="area-title text-center mb-10">
+                                <h2 class="mb-15">Ready to Use App</h2>
+                                <p>Why not give a try to our official app?<br />Easy to customize. Feel free to contact us for any business inquiry.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid">
+                    <div class="app-active">
+                        <div class="app-item">
+                            <a class="popup-image" href="img/screenshot/app1.jpg"><img src="img/screenshot/app1.jpg" alt=""></a>
+                        </div>
+                        <div class="app-item">
+                            <a class="popup-image" href="img/screenshot/app2.jpg"><img src="img/screenshot/app2.jpg" alt=""></a>
+                        </div>
+                        <div class="app-item">
+                            <a class="popup-image" href="img/screenshot/app3.jpg"><img src="img/screenshot/app3.jpg" alt=""></a>
+                        </div>
+                        <div class="app-item">
+                            <a class="popup-image" href="img/screenshot/app4.jpg"><img src="img/screenshot/app4.jpg" alt=""></a>
+                        </div>
+                        <div class="app-item">
+                            <a class="popup-image" href="img/screenshot/app5.jpg"><img src="img/screenshot/app5.jpg" alt=""></a>
+                        </div>
+                        <div class="app-item">
+                            <a class="popup-image" href="img/screenshot/app6.jpg"><img src="img/screenshot/app6.jpg" alt=""></a>
+                        </div>
+                        <div class="app-item">
+                            <a class="popup-image" href="img/screenshot/app7.jpg"><img src="img/screenshot/app7.jpg" alt=""></a>
+                        </div>
+                        <div class="app-item">
+                            <a class="popup-image" href="img/screenshot/app8.jpg"><img src="img/screenshot/app8.jpg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- screenshot-area  end -->
+
+        <!-- team-area start -->
+        <div class="team-area pos-relative team-shape blue-gradient pt-150 pb-120">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-8 offset-lg-2 offset-xl-3">
+                        <div class="area-title white-text text-center mb-60">
+                            <h2 class="mb-15">Applications</h2>
+                            <p>Some of our real cases IoT applications.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-4">
+                        <div class="team-box mb-30 wow fadeInUp" data-wow-delay=".2s">
+                            <div class="team-img">
+                                <img src="img/portfolios/pro1.jpg" alt="">
+                            </div>                            
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4">
+                        <div class="team-box mb-30 wow fadeInUp" data-wow-delay=".4s">
+                            <div class="team-img">
+                                <img src="img/portfolios/pro2.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-4">
+                        <div class="team-box mb-30 wow fadeInUp" data-wow-delay=".6s">
+                            <div class="team-img">
+                                <img src="img/portfolios/pro3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- team-area end -->
+
+        <!-- testimonial start -->
+        <div class="testimonial-area pt-150 pb-150 wow fadeInUp" data-wow-delay=".2s">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-8 offset-lg-2 offset-xl-3">
+                        <div class="area-title text-center mb-30">
+                            <h2 class="mb-15">What Clients Say</h2>                            
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-10 offset-xl-1">
+                        <div class="testimonial-active">
+                            <div class="testimonial-item">
+                                <div class="inner-tesimonial text-center">
+                                    <p>Technology from SAM Element help us to monitor water level in dams and rivers both in dry season and rainy season. This make our jobs much easier.</p>
+                                    <div class="testimonail-name">
+                                        <h6> Ir. H. Sigit Setyawan, MT</h6>
+                                        <span>Head of Public Work Commission, Sidoarjo</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="testimonial-item">
+                                <div class="inner-tesimonial text-center">
+                                    <p>I never seen like this before, an automated system to monitor water level in real time. Unlike traditional method, the measurement took quiet fast and it very accurate.</p>
+                                    <div class="testimonail-name">
+                                        <h6>Agung</h6>
+                                        <span>Sales Manager, PT. Lima Benua Koneksindo</span>
+                                    </div>
+                                </div>
+                            </div> 
+							<div class="testimonial-item">
+                                <div class="inner-tesimonial text-center">
+                                    <p>The Internet of Things will change our world. SAM Element is our business partner we can count on.</p>
+                                    <div class="testimonail-name">
+                                        <h6>Agus Siek</h6>
+                                        <span>President Director, PT. Sinko Prima Alloy</span>
+                                    </div>
+                                </div>
+                            </div>
+ 							<div class="testimonial-item">
+                                <div class="inner-tesimonial text-center">
+                                    <p></p>
+                                    <div class="testimonail-name">
+                                        <h6></h6>
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="testimonial-nav">
+                            <div class="testimonial-thumb">
+                                <img src="img/testimonial/dpu-sdj.png" alt="">
+                            </div>
+                            <div class="testimonial-thumb">
+                                <img src="img/testimonial/agung.png" alt="">
+                            </div>                            
+                            <div class="testimonial-thumb">
+                                <img src="img/testimonial/agus-siek.png" alt="">
+                            </div>                            
+							<div class="testimonial-thumb">
+                                <img src="img/testimonial/new.png" alt="">
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- testimonial end -->
+
+        <!-- map-area start -->
+        <div id="contact" class="map-area">
+            <div class="container">
+                <div class="subscribe-box blue-gradient pt-60 pb-60 wow fadeInUp" data-wow-delay=".3s">
+                    <div class="subscribe-inner">
+                        <h1>Subscribe Us</h1>
+                        <div class="subscribe-form">
+                            <form id="subscribe-form" action="subscribe.php" method="POST">
+                                <input name="email" type="text" placeholder="Enter your email:">
+                                <button class="btn blue-gradient" type="submit">Subscribe</button>
+                            </form>
+							<p class="subscribe-response"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mapouter">
+				<div class="gmap_canvas">
+					<iframe id="gmap_canvas" src="https://maps.google.com/maps?q=PT.%20SAM%20Elemen%20Indonesia&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="width:100%;height:100%"></iframe>
+				</div>
+				<style>.mapouter{text-align:right;height:600px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:100%;}</style>
+			</div>
+        </div>
+        <!-- map-area end -->
+
+        <!-- contact-form-area start -->
+        <div class="contact-form-area pt-150 pb-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-5 col-lg-5">
+                        <div class="area-title mb-40">
+                            <h2 class="mb-15">Get In Touch</h2>
+                        </div>
+                        <div class="contact-form mb-50 wow fadeInLeft" data-wow-delay=".3s">
+                            <form id="contact-form" action="mail.php" method="POST">
+                                <input name="name" type="text" placeholder="Your Name :">
+                                <input name="email" type="email" placeholder="Email :">
+                                <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message :"></textarea>
+                                <button class="btn blue-gradient" type="submit">Send Message</button>
+                            </form>
+                            <p class="ajax-response"></p>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-6 offset-lg-1 offset-xl-1">
+                        <div class="area-title mb-40">
+                            <h2 class="mb-15">Contact Us</h2>
+                            <p>Feel free to contact us for further information / business inquiry.</p>
+                        </div>
+                        <div class="contact-info mb-50 wow fadeInRight" data-wow-delay=".3s">
+                            <ul>
+                                <li>
+                                    <div class="contact-icon">
+                                        <i class="ti-location-pin"></i>
+                                    </div>
+                                    <div class="contact-text">
+                                        <h5>Location</h5>
+                                        <span>Ruko 21 Klampis Blok D-8, Surabaya 60117, Indonesia</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="contact-icon">
+                                        <i class="ti-headphone"></i>
+                                    </div>
+                                    <div class="contact-text">
+                                        <h5>Call Us</h5>
+                                        <span>(+62-31) 5994461</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="contact-icon">
+                                        <i class="ti-email"></i>
+                                    </div>
+                                    <div class="contact-text">
+                                        <h5>Email Us</h5>
+                                        <span>ask[at]samelement[dot]com</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- contact-form-area end -->
+
+        <footer class="wow fadeInUp" data-wow-delay=".3s">
+            <div class="footer-area pt-100 pb-100" style="background-image:url(img/bg/footer-bg.jpg)">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="footer-text text-center">
+                                <img src="img/logo/logo.png" alt="" width="180px">
+                                <div class="footer-icon mt-35 mb-30">
+                                    <a href="https://facebook.com/samelementiot"><i class="ti-facebook"></i></a>
+                                    <a href="https://twitter.com/samelementiot"><i class="ti-twitter-alt"></i></a>
+                                    <a href="https://instagram.com/samelementiot"><i class="ti-instagram"></i></a>
+                                </div>
+                                <p>© Copyright 2018 | All right reserved.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+		<!-- modal ads -->
+		<div class="modal fade right center" id="ad" tabindex="-1" role="dialog" aria-labelledby="modalAd" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<h5 class="modal-title" id="modalAd">&nbsp;</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<div class="modal-close">
+						<span aria-hidden="true">&times;</span>
+					</div>
+				</button>
+			  </div>
+			  <div class="modal-body">
+				<div>&nbsp;</div>
+				<div>
+					<h6>Kami mengundang Guru Sekolah, Guru Ekstrakurikuler, Guru Privat, baik dari Sekolah Swasta, Negeri, ataupun lembaga kursus, untuk mendapatkan informasi lebih jelas dengan mengisi form berikut ini.</h6>
+					<form id="formad" action="mail.php" method="POST">
+						<div>
+							<div>Nama</div>
+							<div><input name="name" type="text" /></div>
+						</div>
+						<div>
+							<div>Nomor Kontak (+62) xxxx-xxxx</div>
+							<div><input class="phone" name="phone" type="text" /></div>
+						</div>
+						<div>
+							<div>Email</div>
+							<div><input name="email" type="text" /></div>
+						</div>
+						<button id="modal-submit" class="btn blue-gradient" name="submit" type="submit">Daftarkan Saya</button>
+					</form>
+				</div>
+			  </div>			 
+			</div>
+		  </div>
+		</div>
+		<!-- modal ads end -->
+
+		<!-- JS here -->
+        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="js/jquery.mask.min.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
+        <script src="js/sweetalert2.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/isotope.pkgd.min.js"></script>
+        <script src="js/one-page-nav-min.js"></script>
+        <script src="js/jquery.counterup.min.js"></script>
+        <script src="js/waypoints.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/ajax-form.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/jquery.scrollUp.min.js"></script>
+        <script src="js/imagesloaded.pkgd.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDC3Ip9iVC0nIxC6V14CKLQ1HZNF_65qEQ "></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+		<script>
+			function getUrlParameter(name) {
+				name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+				var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+				var results = regex.exec(location.search);
+				return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+			};
+			var showlater = 20000;
+			var tmpshow = parseInt(getUrlParameter('show'));
+			if (!isNaN(tmpshow)) showlater = tmpshow;
+			$(document).ready(function() {
+				$('.phone').mask('(+09) 000-0000-9999-9999');
+				setTimeout(function() {
+					$("#ad").modal({
+						keyboard: false,
+						backdrop: 'static'
+					});
+				},showlater);
+				
+			});
+		</script>
+    </body>
+</html>

@@ -1,0 +1,577 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+.slider-app-thumb img {
+	margin-left: -80px;
+}
+.silder-content p {
+	padding-right: 60px;
+}
+.features-app-thumb img {
+	margin-left: -80px;
+}
+.smart-watch {
+	right: 0;
+}
+.slider-app-thumb img {
+	margin-left: -170px;
+}
+.top-shape::after {
+	height: 90px;
+	width: 76px;
+	background-size: cover;
+}
+.page-title-area {
+	padding-top: 260px;
+	padding-bottom: 170px;
+}
+
+
+
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+.slider-app-thumb img {
+	margin-left: -165px;
+}
+.silder-content h1 {
+	font-size: 54px;
+}
+.features-wrapper p {
+	padding: 0 23px;
+}
+.about-app-thumb img {
+	width: 100%;
+}
+.about-app-area {
+	padding-bottom: 120px;
+}
+.features-app-thumb {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.features-app-thumb img {
+	margin-left: 0;
+}
+.app-active .slick-track {
+	padding: 50px 0;
+}
+.testimonial-active button.slick-arrow {
+	left: -25px;
+}
+.testimonial-active button.slick-next {
+	right: -25px;
+}
+.faq-img img {
+	width: 100%;
+}
+.faq-img {
+	margin-top: -4px;
+}
+.smart-watch {
+	display: none;
+}
+.subscribe-inner h1 {
+	font-size: 38px;
+}
+.subscribe-form form input {
+	width: 490px;
+}
+.slider-app-thumb img {
+	margin-left: -190px;
+}
+.top-shape::after {
+	height: 90px;
+	width: 76px;
+	background-size: cover;
+}
+.features-wrapper.features-4 h4 {
+	font-size: 20px;
+}
+.features-wrapper p {
+	padding: 0 0px;
+}
+.team-social a {
+	margin-right: 0px;
+}
+.sidebar-blog {
+	padding-left: 15px;
+}
+.widget-social a {
+	margin-right: 3px;
+}
+.page-title-area {
+	padding-top: 240px;
+	padding-bottom: 150px;
+}
+
+
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.navbar-toggler {
+	padding: 8px;
+	border-radius: 2px;
+	border: 2px solid #fff;
+	width: 45px;
+	height: inherit;
+	position: relative;
+	padding-bottom: 10px;
+}
+.navbar-icon {
+	background: #fff;
+	height: 3px;
+	width: 20px;
+	margin: auto;
+	margin: 0 4px;
+	display: block;
+	margin: auto;
+	margin-top: 3px;
+}
+.main-menu ul.navbar-nav {
+  background-image: -moz-linear-gradient( 0deg, rgb(0,122,223) 0%, rgb(0,236,188) 100%);
+  background-image: -webkit-linear-gradient( 0deg, rgb(0,122,223) 0%, rgb(0,236,188) 100%);
+  background-image: -ms-linear-gradient( 0deg, rgb(0,122,223) 0%, rgb(0,236,188) 100%);
+	margin-top: 20px;
+}
+.main-menu ul.navbar-nav li a.nav-link {
+	padding: 15px 0;
+}
+.main-menu ul.navbar-nav li a.nav-link::before {
+	top: 22px;
+}
+
+/* slider */
+.silder-content h1 {
+	font-size: 35px;
+	font-weight: 500;
+	padding-right: 0px;
+	margin-bottom: 10px;
+}
+.silder-content {
+	padding-top: 0px;
+}
+.slider-app-thumb {
+	position: relative;
+	z-index: 99;
+	padding-top: 0;
+}
+.slider-app-thumb img {
+	width: 160%;
+	margin-left: -100px;
+}
+.slider-height {
+	min-height: 740px;
+}
+
+.features-wrapper p {
+	padding: 0 0px;
+}
+.features-wrapper h4 {
+	font-size: 19px;
+}
+.about-app-thumb img {
+	margin-top: 0;
+}
+.about-app-thumb {
+	text-align: left;
+	margin-top: 50px;
+}
+.features-app-thumb img {
+	margin-left: 0;
+}
+.features-app-thumb {
+	text-align: center;
+	margin-bottom: 0;
+}
+.team-content h3 {
+	font-size: 22px;
+}
+.team-social a {
+	margin-right: 1px;
+}
+.team-content {
+	padding: 34px;
+}
+.testimonial-active button.slick-arrow {
+	left: -20px;
+}
+.testimonial-active button.slick-next {
+	right: -20px;
+	left: auto;
+}
+.faq-img {
+	margin-top: 0;
+}
+.smart-watch {
+	display: none;
+}
+.subscribe-inner h1 {
+	margin-bottom: 40px;
+}
+.work-box h4 {
+	font-size: 20px;
+}
+.work-box {
+	padding: 45px 17px;
+}
+.slider-flat{min-height: 600px;}
+.work-box.work-box-no-bg {
+	padding: 0px 0px;
+}
+.slider-app-thumb img {
+	margin-left: -190px;
+}
+.top-shape::after {
+	height: 90px;
+	width: 76px;
+	background-size: cover;
+}
+.slider-app-thumb img {
+	margin-left: -76px;
+}
+.top-shape::before {
+	background-position: bottom;
+}
+.page-title-area {
+	padding-top: 210px;
+	padding-bottom: 128px;
+}
+.left-sidebar {
+	padding-left: 15px;
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+.post-comments-form {
+	margin-bottom: 50px;
+}
+.bar-wave::after {
+	display: none;
+}
+.pink-header .navbar-toggler {
+	border: 2px solid #F1079C;
+}
+.pink-header .navbar-icon {
+	background: #F1079C;
+}
+
+
+
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+.navbar-toggler {
+	padding: 8px;
+	border-radius: 2px;
+	border: 2px solid #fff;
+	width: 45px;
+	height: inherit;
+	position: relative;
+	padding-bottom: 10px;
+}
+.navbar-icon {
+	background: #fff;
+	height: 3px;
+	width: 20px;
+	margin: auto;
+	margin: 0 4px;
+	display: block;
+	margin: auto;
+	margin-top: 3px;
+}
+.main-menu ul.navbar-nav {
+  background-image: -moz-linear-gradient( 0deg, rgb(0,122,223) 0%, rgb(0,236,188) 100%);
+  background-image: -webkit-linear-gradient( 0deg, rgb(0,122,223) 0%, rgb(0,236,188) 100%);
+  background-image: -ms-linear-gradient( 0deg, rgb(0,122,223) 0%, rgb(0,236,188) 100%);
+	margin-top: 20px;
+}
+.main-menu ul.navbar-nav li a.nav-link {
+	padding: 15px 0;
+}
+.main-menu ul.navbar-nav li a.nav-link::before {
+	top: 22px;
+}
+/* slider */
+.silder-content h1 {
+	font-size: 36px;
+	padding-right: 0px;
+	margin-bottom: 15px;
+}
+.silder-content a {
+	margin-bottom: 10px;
+}
+.slider-app-thumb {
+	padding-top: 28px;
+}
+.slider-app-thumb img {
+	width: 100%;
+}
+.features-wrapper p {
+	padding: 0 15px;
+}
+.about-app-thumb img {
+	margin-top: 45px;
+	width: 100%;
+}
+.get-app a {
+	margin-bottom: 10px;
+}
+.work-box {
+	padding: 45px 27px;
+}
+.features-app-thumb img {
+	margin-left: 0;
+	width: 100%;
+}
+.features-app-thumb {
+	text-align: center;
+	margin-bottom: 0;
+}
+.app-padding {
+	padding: 0 0;
+}
+.inner-tesimonial {
+	padding: 50px 15px;
+}
+.testimonial-item {
+	padding: 50px 8px;
+}
+.inner-tesimonial::after {
+	right: 20px;
+}
+.faq-img {
+	margin-top: 0;
+}
+.faq-img img {
+	width: 100%;
+}
+.smart-watch {
+	display: none;
+}
+.subscribe-form form input {
+	width: 100%;
+}
+.subscribe-form form button.btn {
+	position: static;
+	margin-top: 12px;
+}
+.subscribe-inner h1 {
+	top: 0;
+	margin-right: 0;
+	margin-bottom: 20px;
+	font-size: 34px;
+}
+.star-pattern::before {
+	left: 0px;
+	width: 200px;
+	background-position: right;
+}
+.fact-area::before {
+	width: 200px;
+	width: 220px;
+	background-position: left;
+}
+.fact-area::after {
+	width: 220px;
+	background-position: right;
+}
+.about-app-area::before {
+	width: 250px;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.testimonial-nav {
+	width: 270px;
+}
+.faq-wrapper .btn-link {
+	font-size: 15px;
+	padding: 20px 10px;
+}
+.how-it-work-content-area {
+	padding-top: 210px;
+}
+.subscribe-inner {
+	text-align: center;
+	padding: 0 15px;
+}
+.footer-icon a {
+	margin: 0 1px;
+	margin-bottom: 2px;
+}
+.faq-wrapper .btn-link.collapsed::before {
+	right: 8px;
+}
+.footer-4{
+	padding-bottom: 26px;
+}
+.bg-footer {
+	background-size: cover;
+	background-position: center center;
+}
+
+.slider-flat{min-height: 750px;}
+.silder-content.pt-250 {
+	padding-top: 120px;
+}
+.work-box-2 {
+	padding: 0px 0;
+}
+.page-title h1 {
+	font-size: 30px;
+}
+.page-title-area {
+	padding-top: 200px;
+	padding-bottom: 120px;
+}
+.widget-social a {
+	margin-bottom: 10px;
+}
+.sidebar-blog {
+	padding-left: 15px;
+	margin-top: 30px;
+}
+.left-sidebar {
+	padding-left: 15px;
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+.blog-post-tag > a {
+	margin-bottom: 5px;
+}
+.comments-reply {
+	padding-left: 0;
+}
+.avatar-name > span {
+	display: block;
+}
+.avatar-name > h5 {
+	float: none;
+}
+.post-comments-form {
+	padding-right: 0;
+}
+.post-comments-form {
+	margin-bottom: 50px;
+}
+.bar-wave::after {
+	display: none;
+}
+.pink-header .navbar-toggler {
+	border: 2px solid #F1079C;
+}
+.pink-header .navbar-icon {
+	background: #F1079C;
+}
+.top-shape::after {
+	display: none;
+}
+.silder-content.pt-280 {
+	padding-top: 185px;
+}
+.sticky {
+	padding: 8px 0;
+}
+.area-title h2 {
+	font-size: 30px;
+}
+.features-area.pt-105.pb-110 {
+	padding-top: 100px;
+	padding-bottom: 60px;
+}
+.about-app-area.pt-140 {
+	padding-top: 100px;
+}
+.about-app-thumb {
+	margin-bottom: 0;
+	padding-bottom: 100px;
+}
+.how-it-area-area.pt-150 {
+	padding-top: 100px;
+}
+.how-it-work-content-area.pb-120 {
+	padding-bottom: 60px;
+}
+.features-area.pt-150.pb-50 {
+	padding-top: 100px;
+	padding-bottom: 40px;
+}
+.fact-area.pt-150.pb-120 {
+	padding-top: 100px;
+	padding-bottom: 70px;
+}
+.screenshot-area.pb-135 {
+	padding-bottom: 90px;
+}
+.team-area.pb-120 {
+	padding-bottom: 70px;
+}
+.pt-150 {
+	padding-top: 100px;
+}
+.pb-120 {
+	padding-bottom: 70px;
+}
+.pb-150 {
+	padding-bottom: 100px;
+}
+.pb-100 {
+	padding-bottom: 60px;
+}
+.footer-area.pt-100.pb-100 {
+	padding-bottom: 100px;
+}
+.price-bar::after {
+	background-size: cover;
+}
+.price-head::after {
+	background-size: cover;
+}
+.about-app-thumb.about-simple img {
+	margin-top: 30px;
+	width: 100%;
+}
+.slider-video-height {
+	min-height: 700px;
+}
+.app-item.slick-center img {
+	transform: scale(1);
+}
+.app-active .slick-track {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.about-gray h2 {
+	font-size: 30px;
+}
+.work-box.work-box-no-bg {
+	padding: 0px 5px;
+}
+.header-white .main-menu ul.navbar-nav li a.nav-link {
+	color: #fff;
+}
+.header-white .main-menu ul.navbar-nav li a.nav-link::before {
+	background: #fff;
+}
+.slider-pink-thumb img {
+	margin-left: 0;
+}
+.about-app h2 {
+	font-size: 30px;
+}
+
+
+
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+
+}
